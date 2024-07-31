@@ -1,0 +1,35 @@
+body{
+    background-color: black;
+    }
+div.box{
+    background-color: rgb(7, 4, 60);
+    height: 40%;
+    width: 50%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+div.countdown{
+    display: block;
+}
+div.buttons{
+    display: block;
+}
+button{
+    background-color: rgb(0, 0, 0);
+    border: 0cap;
+    color: rgb(255, 255, 255);
+    height: 50px;
+    width: 70px;
+}
+h2{
+    color: white;
+    font-size: 70px;
+}
